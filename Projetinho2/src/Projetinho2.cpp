@@ -9,7 +9,7 @@ int main() {
 	double Hipo;
 	double resu;
 	double total;
-	cout << "Como posso te ajudar nesta lição sobre o Teorema de Pitágoras? Selecione 1 caso o X for a hipotenusa. E pressione 2 caso X for algum cateto: \n2";
+	cout << "Como posso te ajudar nesta lição sobre o Teorema de Pitágoras? Selecione 1 caso o X for a hipotenusa. E pressione 2 caso X for algum cateto: \n";
 	cin >> escolha;
 	cin.ignore();
 	switch (escolha){
@@ -33,7 +33,7 @@ int main() {
 		cin.ignore();
 		resu = (Hipo*Hipo) - (X*X);
 		total = sqrt(resu);
-		cout << "O valor da hipotenusa é: "<< total <<" é √" << resu;
+		cout << "O valor da hipotenusa é: "<< total <<" ou √" << resu;
 		break;
 	default:
 		cout << "Error";
