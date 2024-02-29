@@ -33,7 +33,7 @@ int main() {
 		cin.ignore();
 		resu = (Hipo*Hipo) - (X*X);
 		total = sqrt(resu);
-		cout << "O valor da hipotenusa é: "<< total <<" ou √" << resu;
+		cout << "O valor do cateto é: "<< total <<" ou √" << resu;
 		break;
 	default:
 		cout << "Error";
